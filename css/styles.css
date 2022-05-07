@@ -1,0 +1,200 @@
+:root {
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --second-logo-color: #000000;
+    --accent-color: #FFFFFF;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --secondary-background-color: #2F303A;
+    --accent-background-color: #F5F4FA;
+    --hover-color: #2196F3;
+    --main-button-hover-color: #188CE8;
+    --filter-button-bgc-color: rgba(245, 244, 250, 1)
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.menu.link.current {
+    color: var(--hover-color);
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14; 
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
+    background-color: var(--accent-color);
+}
+
+.logo.link {
+    font-family: 'Raleway', "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.first-part {
+    color: var(--hover-color);
+}
+
+.page-header .second-part {
+    color: var(--second-logo-color);
+}
+
+.page-footer .second-part {
+    color: var(--accent-color);
+}
+
+.menu.link,
+.header-contact.link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    
+    color: var(--secondary-text-color);
+}
+
+.header-contact.link {
+    color: var(--main-text-color); 
+}
+
+.menu.link:hover,
+.menu.link:focus,
+.header-contact.link:hover,
+.header-contact.link:focus,
+.footer-contact.link:hover,
+.footer-contact.link:focus {
+    color: var(--hover-color);
+}
+
+.banner,
+.page-footer {
+    background-color: var(--secondary-background-color);
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--accent-color);
+    
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+    color: var(--accent-color);
+    background-color: var(--hover-color);
+}
+
+.btn:hover {
+    background-color: var(--main-button-hover-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    color: var(--secondary-text-color);
+
+    text-align: center;
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    color: var(--secondary-text-color);
+}
+
+.text {
+    line-height: 1.71;
+}
+
+.team {
+    background-color: var(--accent-background-color);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: var(--secondary-text-color);
+}
+
+.profession {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+.phys-adress {
+    font-style: normal;
+    line-height: 1.71;
+    
+    color: var(--accent-color);
+}
+
+.footer-contact.link {
+    font-style: normal;
+    line-height: 1.71;
+    
+    color: var(--footer-contact-color);
+}
+
+.product {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+    color: var(--secondary-text-color);
+
+    text-align: left;
+}
+
+.type {
+    font-size: 16px;
+    line-height: 1.88;
+   
+    color: var(--main-text-color);
+}
+
+.btn-filter {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-text-color);
+    background-color: var(--filter-button-bgc-color);
+
+    cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--accent-color);
+    background-color: var(--hover-color);
+}
